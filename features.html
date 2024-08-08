@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Project Whelc</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #111827;
+            color: #D1D5DB;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .feature-heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .feature-box {
+            padding: 20px;
+            background-color: #374151;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+        .collapsible {
+            border: none;
+            outline: none;
+            text-align: left;
+            background-color: #374151;
+            color: #D1D5DB;
+            padding: 18px;
+            width: 100%;
+            transition: 0.4s;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .collapsible:hover {
+            background-color: #4B5563;
+        }
+        .active, .collapsible:hover {
+            background-color: #1F2937;
+        }
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #1F2937;
+            border-radius: 0 0 10px 10px;
+        }
+        .active-content {
+            max-height: 1500px;
+        }
+        .download-button {
+            background-color: #4A5568;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-left: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #2D3748;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-gradient-to-r from-purple-800 via-zinc-900 to-black text-white p-6">
+        <div class="flex justify-between items-center">
+            <div>
+            </div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-zinc-400">HOME</a></li>
+                <li><a href="about.html" class="hover:text-zinc-400">ABOUT</a></li>
+                <li><a href="features.html" class="hover:text-zinc-400">FEATURES</a></li>
+                <li><a href="contact.html" class="hover:text-zinc-400">CONTACT</a></li>
+                <li><a href="download.html" class="download-button">DOWNLOAD</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-20">
+        <h1 class="text-5xl font-bold mb-8 text-center">Features List</h1>
+
+        <!-- Features -->
+        <div class="feature-heading">
+            <button class="collapsible">Settings</button>
+            <div class="content">
+                <p>Return to Main</p>
+                <p>Menu Settings</p>
+            </div>
+        </div>
+        
+
+        <div class="feature-heading">
+            <button class="collapsible">Menu Settings</button>
+            <div class="content">
+                <p>Return to Settings</p>
+                <p>Right Hand</p>
+                <p>Notifications</p>
+                <p>FPS Counter</p>
+                <p>Disconnect Button</p>
+            </div>
+        </div>
+        
+
+        <div class="feature-heading">
+            <button class="collapsible">Room Mods</button>
+            <div class="content">
+                <p>Return to Main</p>
+                <p>Grip Disconnect</p>
+                <p>Trigger Disconnect</p>
+                <p>Join Usw Servers</p>
+                <p>Join Us Servers</p>
+                <p>Join Eu Servers</p>
+            </div>
+        </div>
+        
+        
+        
+
+        <div class="feature-heading">
+            <button class="collapsible">Movement Mods</button>
+            <div class="content">
+                <p>Return to Main</p>
+<p>Platforms</p>
+<p>Stick Long Arms</p>
+<p>Wall Walk</p>
+<p>Right Trigger NoClip</p>
+<p>Left Trigger Noclip</p>
+<p>Right Grip Noclip</p>
+<p>Left Grip Noclip</p>
+<p>Speed Boost</p>
+<p>Grip Speed Boost</p>
+<p>Fan</p>
+<p>Auto Dance</p>
+<p>Auto Griddy</p>
+<p>Helicopter</p>
+<p>Bey Blade</p>
+<p>Grab Rig</p>
+<p>Ghost Monkeh</p>
+<p>Jumpscare Gun</p>
+<p>Steam Long Arms</p>
+<p>Mulpiplied Long Arms</p>
+<p>Normal Arms</p>
+<p>Punch Mod</p>
+            </div>
+        </div>                
+
+        <div class="feature-heading">
+            <button class="collapsible">Adventage</button>
+            <div class="content">
+                <p>Return to Main</p>
+                <p>Grip Tag Aura</p>
+                <p>Infection Tracers [Working?]</p>
+            </div>
+        </div>        
+        
+
+        <div class="feature-heading">
+            <button class="collapsible">Sounds</button>
+            <div class="content">
+                <p>Return to Main</p>
+<p>Drum Sound Spam</p>
+<p>Wolf Sound Spam</p>
+<p>Ding Sound Spam</p>
+<p>Ak47 Sound Spam</p>
+<p>Pan Sound Spam</p>
+
+
+            </div>
+        </div>
+
+        <div class="feature-heading">
+            <button class="collapsible">Safety Mods</button>
+            <div class="content">
+                <p>Return to Main</p>
+<p>Whel Antireport Disconnect</p>
+<p>Whel Antireport Reconnect</p>
+<p>Whel Antireport Oculus</p>
+<p>No Finger Movement</p>
+<p>Fps Boost</p>
+<p>Fix Quality</p>
+
+            </div>
+        </div>        
+        
+
+        <div class="feature-heading">
+            <button class="collapsible">Visual Mods</button>
+            <div class="content">
+                <p>Return to Main</p>
+                <p>Tracers</p>
+                <p>Sphere Esp</p>
+            </div>
+        </div>
+
+        <div class="feature-heading">
+            <button class="collapsible">Soon..</button>
+            <div class="content">
+                <p>Return to Main</p>
+<p>None For Now</p>
+            </div>
+        </div>
+
+        <div class="feature-heading">
+            <button class="collapsible">Soon..</button>
+            <div class="content">
+                <p>Return to Main</p>
+<p>None For Now</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for collapsible content
+        const coll = document.getElementsByClassName("collapsible");
+        let i;
+        
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                const content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
+</body>
+</html>
+
